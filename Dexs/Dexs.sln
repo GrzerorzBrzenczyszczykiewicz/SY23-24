@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dexs", "Dexs\Dexs.vbproj", "{6526C02F-9034-4DA5-BEDA-BFD5A7D41630}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6526C02F-9034-4DA5-BEDA-BFD5A7D41630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6526C02F-9034-4DA5-BEDA-BFD5A7D41630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6526C02F-9034-4DA5-BEDA-BFD5A7D41630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6526C02F-9034-4DA5-BEDA-BFD5A7D41630}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25480963-0F40-4218-9A2C-89E105F54A4E}
+	EndGlobalSection
+EndGlobal
