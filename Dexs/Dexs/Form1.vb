@@ -39,8 +39,13 @@ Public Class Form1
         If IO.File.Exists("data.txt") Then
             Dim inFile As New IO.StreamReader("data.txt")
             Records(0) = inFile.ReadLine
-            Records(1) = inFile.ReadLine
             inFile.Close()
+            Showrecord(0)
         End If
+    End Sub
+    Public Sub Showrecord(index As Integer)
+        Dim fields() As String
+        fields = Records(index).Split("|")
+        Field1.Text = fields(0)
     End Sub
 End Class
